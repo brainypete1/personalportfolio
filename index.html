@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libsTyped.js/2.0.12/Typed.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <h2>I'm <span id="typed"></span></h2>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="stats">
+            <div class="stat">
+                <span class="counter" data-count="5">0</span> Projects
+            </div>
+            <div class="stat">
+                <span class="counter" data-count="3">0</span> Years Experience
+            </div>
+            <div class="stat">
+                <span class="counter" data-count="10">0</span> Countries Visited
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <span>HTML</span>
+                <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>CSS</span>
+                <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="progress"><div class="progress-bar" style="width: 70%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="filters">
+            <button>All</button>
+            <button>Web</button>
+            <button>Mobile</button>
+        </div>
+        <div class="project-grid">
+            <div class="project">Project 1</div>
+            <div class="project">Project 2</div>
+            <div class="project">Project 3</div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>My Services</h2>
+        <div class="service-card">Web Development</div>
+        <div class="service-card">App Development</div>
+        <div class="service-card">SEO Optimization</div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What People Say</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial">Testimonial 1</div>
+            <div class="testimonial">Testimonial 2</div>
+            <div class="testimonial">Testimonial 3</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow me on:</p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+    </footer>
+
+</body>
+</html>
